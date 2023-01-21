@@ -1,0 +1,76 @@
+
+.city-list__item--lisbone {
+    background: #3359CC;
+}
+
+.city-list__item--paris {
+    background: #33CCCC;
+}
+
+.city-list__item--belgrade {
+    background: #996699;
+}
+
+.city-list__item--venace {
+    background: #C24747;
+}
+
+.city-list__item--telavive {
+    background: #E2674A;
+}
+
+.city-list__item--cair {
+    background: #FFCC66;
+}
+
+.city-list__item--newyork {
+    background: #99CC99;
+}
+
+.city-list__item--newdelhi {
+    background: #669999;
+}
+
+.city-list__item--francisco {
+    background: #CC6699;
+}
+
+.city-list__item--tokyo {
+    background: #339966;
+}
+
+.city-list__item--sydney {
+    background: #666699;
+}
+
+.city-list__title {
+    color: white;
+}
+.nav-list__item a{
+    corol: white;
+}
+
+.city-list {
+    max-width: 1200px;
+    word-wrap: 100%;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 148px);
+    border: 4px solid white;
+    grid-gap: 4px;
+    background: white;
+    
+}
+
+.city-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    background: #3399CC;
+    border: 25px solid #2B81AC;
+}

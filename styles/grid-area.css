@@ -1,0 +1,51 @@
+
+.city-list__item--lisbone{
+    grid-area: lisbone;
+}
+
+.city-list__item--paris{
+    grid-area: paris;
+}
+
+.city-list__item--belgrade{
+    grid-area: belgrade;
+}
+
+.city-list__item--venace{
+    grid-area: venace;
+}
+
+.city-list__item--telavive{
+    grid-area: telavive;
+}
+
+.city-list__item--cair{
+    grid-area: cair;
+}
+
+.city-list__item--newyork{
+    grid-area: newyork;
+}
+
+.city-list__item--newdelhi{
+    grid-area: newdelhi;
+}
+
+.city-list__item--francisco{
+    grid-area: francisco;
+}
+
+.city-list__item--tokyo{
+    grid-area: tokyo;
+}
+
+.city-list__item--sydney{
+    grid-area: sydney;
+}
+
+.city-list{
+    grid-template-areas:    "lisbone lisbone paris belgrade"
+                            "venace telavive cair newyork"
+                            "newdelhi francisco francisco tokyo"
+                            "sydney sydney sydney sydney";
+}
